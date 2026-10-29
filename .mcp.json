@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "saras-robot": {
+      "command": "D:/Programming/Robot/saras_ai_robot_v2-main/saras_ai_robot_v2-main/.venv/Scripts/python.exe",
+      "args": [
+        "D:/Programming/Robot/saras_ai_robot_v2-main/saras_ai_robot_v2-main/servers/robot_server.py"
+      ]
+    }
+  }
+}

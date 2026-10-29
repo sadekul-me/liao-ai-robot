@@ -1,0 +1,5 @@
+# Keep Saras on the MCP v1 API used by its FastMCP server.
+mcp>=1.28,<2
+aiohttp>=3.11,<4
+pyserial>=3.5,<4
+Pillow>=10,<14
