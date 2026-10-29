@@ -1,12 +1,12 @@
 """
-Saras — Motor controller
+LiAo — Motor controller
 Communicates with a microcontroller (e.g. ESP32/Arduino) over USB serial.
 
 Protocol:
-  M <left> <right>   — set motor speeds (-255..255, positive = forward)
-  S                  — stop
-  RESET              — zero encoders
-  ENC:<m1>:<m2>:<m3>:<m4>  — encoder feedback streamed back from the board
+    M <left> <right>         — set motor speeds (-255..255, positive = forward)
+    S                        — stop
+    RESET                    — zero encoders
+    ENC:<m1>:<m2>:<m3>:<m4>  — encoder feedback streamed back from the board
 """
 import serial
 import threading
